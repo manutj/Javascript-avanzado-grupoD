@@ -1,7 +1,0 @@
-console.log('Hola')
-console.log('Adios')
-console.log('Hola de nuevo')
-console.log('nuevo cambio')
-console.log('Otro cambio')
-console.log('Un cambio mas')
-console.log('Prueba de pull')
