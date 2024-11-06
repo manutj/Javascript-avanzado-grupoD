@@ -1,7 +1,7 @@
 
 const getPokemons = (limit) => {
 let allPokemons = []
-const url = `https://pokeapi.co/api/v2/pokemon?limit=${limit}` 
+const url = `https://pokeapi.co/api/v2/pokemonlimit=${limit}` 
 axios.get(url)
 .then((response)=>{
     let infoPokemons = response.data.results
@@ -25,7 +25,7 @@ axios.get(url)
     })
     //console.log(allPokemons)
 })
-.catch((error)=>console.log(error))
+.catch((error)=>console.log(error.message))
 
 // VER COMO IMPLEMENTAR PROMESAS EN LUGAR DE TIMEOUTS
 
